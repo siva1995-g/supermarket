@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store>
+  <name>My Online Shop</name>
+  <tagline>Quality products at great prices</tagline>
+  <currency>INR</currency>
+
+  <categories>
+    <category id="1">Electronics</category>
+    <category id="2">Clothing</category>
+    <category id="3">Home &amp; Kitchen</category>
+  </categories>
+
+  <products>
+    <product id="101" categoryId="1">
+      <name>Wireless Headphones</name>
+      <description>Bluetooth over-ear headphones with 20 hours of battery life.</description>
+      <price>2499.00</price>
+      <stock>50</stock>
+      <image>images/headphones.jpg</image>
+    </product>
+
+    <product id="102" categoryId="1">
+      <name>Smart Watch</name>
+      <description>Fitness tracker with heart-rate monitor and water resistance.</description>
+      <price>3999.00</price>
+      <stock>30</stock>
+      <image>images/smartwatch.jpg</image>
+    </product>
+
+    <product id="201" categoryId="2">
+      <name>Cotton T-Shirt</name>
+      <description>Soft round-neck cotton t-shirt, available in several sizes.</description>
+      <price>499.00</price>
+      <stock>120</stock>
+      <image>images/tshirt.jpg</image>
+    </product>
+
+    <product id="301" categoryId="3">
+      <name>Non-Stick Frying Pan</name>
+      <description>26 cm non-stick pan, suitable for gas and induction.</description>
+      <price>899.00</price>
+      <stock>75</stock>
+      <image>images/pan.jpg</image>
+    </product>
+  </products>
+
+  <pages>
+    <page name="home" url="/index.jsp"/>
+    <page name="products" url="/products"/>
+    <page name="cart" url="/cart"/>
+    <page name="checkout" url="/checkout"/>
+    <page name="login" url="/login"/>
+  </pages>
+</store>
